@@ -1,0 +1,134 @@
+html{
+    /* Suavização do scrool */
+    scroll-behavior: smooth;
+}
+/* Corpo da Aplicação */
+body {
+    /* background */
+    background-color: #f2e7dc;
+    /* Texto */
+    color: #0d0d0d;
+    text-align: justify;
+
+    /* Alinhamento e Tamanho */
+    /* 1rem = 16px,  */
+    width: 100%;
+    margin: auto;
+}
+
+/* Seções dos livros */
+section {
+        padding: 64px 256px;
+
+/* Outra forma de utilizar o padding: */
+
+    /* padding: 64px 256px 64px 256px; */
+
+    /* padding-left: 256px; */
+    /* padding-right: 256px; */
+    /* padding-bottom: 64px; */
+    /* padding-top: 64px; */
+}
+
+/* Tabela */
+
+table {
+    /* Largura */
+    width: 100%;
+}
+    /* Background */
+td {
+    background-color: #A9D9D0;
+}
+td, 
+th { 
+        /* Alinhamento do texto */
+        text-align: center;
+        /* Borda no formato shorthand */
+        border: black solid 1px;
+        border-radius: 4px;
+         /* Or */
+            /* border-width: 3px; */
+            /* border-style: solid; */
+            /* border-color: black; */
+}
+tr {
+    background-color: #038C7E;
+}
+/* Titulo, Texto e Parágrafos */
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+h3 {
+    color: #000;
+}
+
+/* Links */
+a:link {
+    color: #f2e7dc; /*Link Normal*/
+}
+a:visited {
+    color: #95bfb8; /*Link Visitado*/
+}
+a:hover {
+    color: #025454; /*Mouse sobre o link*/
+}
+a:active {
+    color: #0d0d0d; /*Link Selecionado*/
+}
+/* Imagem */
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+
+/* Classes e IDs */
+.bookTitle {
+    background-color: #A9D9D0;
+    color: #027373;
+    text-align: center;
+}
+
+#sectionHP,
+#sectionComo,
+#sectionAcaba {
+    background-color: #A9D9D0;
+}
+#header {
+    background-color: #038c7f;
+    color: #f2e7dc;
+    padding: 20px;
+    margin-bottom: 0px; 
+}
+#yourLibrary {
+    text-indent: 0px;
+    text-align: center;
+}
+#sumary {
+    background-color: #038c7f;
+    color: #f2e7dc;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 0 0 50px 50px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Roda pé */
+footer {
+    background-color: #038c7f;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+}

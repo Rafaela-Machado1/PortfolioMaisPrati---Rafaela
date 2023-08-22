@@ -1,0 +1,128 @@
+/* Editando seções*/
+#sobre, 
+#servicos, 
+#portfolio, 
+#contato {
+    padding: 10rem 0;
+}
+
+/* Hero Section */
+
+.heroTitle {
+    font-size: 4.5rem;
+}
+.heroDesc {
+    font-size: 2rem;
+}
+.heroText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* Imagem Sobre Mim */
+.aboutImage {
+    width: 80%;
+    border: solid;
+    border-radius: 10px;
+    box-shadow: 10px -10px rgb(193, 192, 192)
+}
+
+.servicesText.card {
+    height: 250px;
+    cursor: pointer;
+    padding: 0 2rem;
+}
+.aboutIcon {
+    font-size: 1.5rem;
+}
+.fontPort {
+    font-size: 1.4rem;
+}
+.servicesIcon {
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.circle {
+    margin-top: 10px;
+    font-size: 0.5rem;
+}
+.cardTitle {
+    text-align: center;
+}
+.cardText{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.card:hover .servicesIcon {
+    color: #053185;
+}
+.servicesText:hover {
+    border: 1px solid #053185;
+}
+
+.colorTitle {
+    background-image: linear-gradient(to bottom, #5565f3,#8347a9,#e77213);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2.5rem;
+    font-weight: bold;    
+}
+
+/* Estilização do cabeçalho */
+.navbar {
+    background-color: #383632e5;
+}
+.navbar a {
+    color: white;
+    padding: 0.5rem;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 4px;
+}
+
+/* Aula 3: Icones seção contato */
+.contactIcon {
+    font-size: 2.5rem;
+    color: #053185;
+    margin-top: 0.5rem;
+}
+.contact {
+    font-size: 1.2rem;
+}
+footer {
+    background-color: #141415;
+}
+
+.footerIcon {
+    font-size: 2rem;
+    color: white;
+}
+.footerIcon:hover {
+    color: #c4c4c4;
+}
+.footerDev {
+    background-color: #383632e5;
+}
+
+/* Efeito de GlassMorphismo */
+.glass {
+    position: absolute;
+    height: 40%;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background: rgba(223, 207, 189, 0.138);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+}
